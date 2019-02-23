@@ -413,13 +413,16 @@ header .navbar .logo {
               }
               .lexlogo {
                   height: auto;
-                  width: 79px;
+                  // width: 79px;
                   margin: 70px 0 50px;
               }
               .social-net-logo {
                   // max-width: 217px;
                   .social {
-                      padding:0 30px 0 0;
+                      padding:0 10px 0 10px;
+                      img {
+                        width: 50px;
+                      }
                   }
                   .last {
                       padding: 0%;
