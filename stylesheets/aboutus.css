@@ -1,0 +1,220 @@
+/* line 1, ../sass/style.scss */
+/* line 2, ../sass/aboutus.scss */
+.default-container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+/* line 5, ../sass/style.scss */
+/* line 8, ../sass/aboutus.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* line 10, ../sass/style.scss */
+/* line 15, ../sass/aboutus.scss */
+html, body {
+  margin: 0%;
+  padding: 0;
+  font-family: Lato;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+/* line 17, ../sass/style.scss */
+/* line 24, ../sass/aboutus.scss */
+html li, html a, body li, body a {
+  text-decoration: none !important;
+}
+
+/* line 22, ../sass/style.scss */
+/* line 29, ../sass/aboutus.scss */
+div {
+  margin: 0%;
+}
+
+/* line 33, ../sass/aboutus.scss */
+.first {
+  background: url("../images/aboutusfirst.jpg");
+  height: 430px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 39, ../sass/aboutus.scss */
+.first h2 {
+  background-color: rgba(1, 47, 90, 0.5);
+  text-align: center;
+  padding: 14% 0;
+  font-size: 50px;
+  letter-spacing: -.05em;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* line 50, ../sass/aboutus.scss */
+.second {
+  background-color: #d9d9d9;
+  padding: 5% 7%;
+}
+/* line 53, ../sass/aboutus.scss */
+.second .images {
+  width: 55%;
+  float: left;
+}
+/* line 56, ../sass/aboutus.scss */
+.second .images img {
+  width: 100%;
+}
+/* line 60, ../sass/aboutus.scss */
+.second .history {
+  padding: 5% 0 0 40px;
+  float: left;
+  width: 45%;
+}
+/* line 64, ../sass/aboutus.scss */
+.second .history h3 {
+  font-size: 58px;
+  line-height: 65px;
+  color: #242847;
+  font-weight: 900;
+  margin-bottom: 17px;
+}
+/* line 71, ../sass/aboutus.scss */
+.second .history p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* line 79, ../sass/aboutus.scss */
+.founder {
+  background-color: #f2efef;
+  padding: 5% 7%;
+}
+/* line 82, ../sass/aboutus.scss */
+.founder .img {
+  padding-top: 5%;
+  width: 45%;
+  float: right;
+}
+/* line 86, ../sass/aboutus.scss */
+.founder .img img {
+  width: 100%;
+}
+/* line 90, ../sass/aboutus.scss */
+.founder .info {
+  padding: 0 40px 0 0;
+  float: right;
+  width: 50%;
+}
+/* line 94, ../sass/aboutus.scss */
+.founder .info h3 {
+  font-size: 58px;
+  line-height: 65px;
+  color: #242847;
+  font-weight: 900;
+  margin-bottom: 17px;
+}
+/* line 101, ../sass/aboutus.scss */
+.founder .info p {
+  color: #666;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* line 109, ../sass/aboutus.scss */
+.team {
+  padding: 5% 7%;
+  text-align: center;
+}
+/* line 112, ../sass/aboutus.scss */
+.team h3 {
+  font-size: 58px;
+  line-height: 65px;
+  color: #242847;
+  font-weight: 900;
+  margin-bottom: 17px;
+}
+/* line 119, ../sass/aboutus.scss */
+.team .col {
+  float: left;
+  width: 33%;
+}
+
+/* line 125, ../sass/aboutus.scss */
+.career {
+  padding: 5% 0;
+  background-color: #f2efef;
+  text-align: center;
+}
+/* line 129, ../sass/aboutus.scss */
+.career h3 {
+  font-size: 58px;
+  line-height: 65px;
+  color: #242847;
+  font-weight: 900;
+  margin-bottom: 27px;
+}
+/* line 136, ../sass/aboutus.scss */
+.career .card {
+  margin: 30px;
+  padding: 40px;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+/* line 143, ../sass/aboutus.scss */
+.career .card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+/* line 147, ../sass/aboutus.scss */
+.career .card.last {
+  padding-bottom: 15px;
+}
+/* line 152, ../sass/aboutus.scss */
+.career .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+/* line 156, ../sass/aboutus.scss */
+.career .container {
+  padding: 2px 0;
+}
+/* line 158, ../sass/aboutus.scss */
+.career .container h4 {
+  font-size: 20px;
+}
+
+/* line 164, ../sass/aboutus.scss */
+.footer {
+  background-color: #d9d9d9;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 54px 0 2em;
+}
+/* line 169, ../sass/aboutus.scss */
+.footer a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  padding: .4em;
+  line-height: 1;
+  z-index: 10;
+  color: inherit;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+/* line 182, ../sass/aboutus.scss */
+.footer a:before {
+  font-size: 3rem;
+  content: "\005E";
+  font-style: normal;
+  font-weight: normal;
+}
