@@ -1,0 +1,58 @@
+.default-container {
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+html, body {
+  margin: 0%;
+  padding: 0;
+  font-family: Lato;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+  li, a {
+    text-decoration: none !important;
+  }
+ }
+
+div {
+  margin: 0%; }
+
+
+  .navbar {
+    text-align: inherit;
+    padding: .15em 28px;
+    background-color: #d9d9d9;
+    width: 100%;
+    min-height: 55px;
+    z-index: 999;
+    .navbar-brand {
+     font-weight: bold;
+     letter-spacing: 1px;
+     color: #fff;
+     font-size: 36px;
+     display: inline-block;
+     vertical-align: middle;
+   }
+   .collapse form {
+     position: absolute;
+     right: 0;
+     .navbar-nav {
+       li {
+       a {
+         color: #fff;
+         font-size: 20px;
+         font-weight: bold;
+       }
+       &.active {
+        a { color: #e4c272;
+        }
+       }
+       }
+     }
+   }
+  }

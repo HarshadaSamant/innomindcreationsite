@@ -19,22 +19,61 @@ html, body {
   position: relative;
   overflow-x: hidden;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
-/* line 17, ../sass/services.scss */
+/* line 18, ../sass/services.scss */
 html li, html a, body li, body a {
   text-decoration: none !important;
 }
 
-/* line 22, ../sass/services.scss */
+/* line 23, ../sass/services.scss */
 div {
   margin: 0%;
 }
 
 /* line 26, ../sass/services.scss */
+header {
+  text-align: inherit;
+  padding: .15em 28px;
+  background-color: #d9d9d9;
+  width: 100%;
+  min-height: 55px;
+  z-index: 999;
+}
+/* line 34, ../sass/services.scss */
+header .navbar .navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 36px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 42, ../sass/services.scss */
+header .navbar .collapse form {
+  position: absolute;
+  right: 0;
+}
+/* line 47, ../sass/services.scss */
+header .navbar .collapse form .navbar-nav li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 53, ../sass/services.scss */
+header .navbar .collapse form .navbar-nav li.active a {
+  color: #e4c272;
+}
+
+/* line 62, ../sass/services.scss */
+.first {
+  position: relative;
+}
+/* line 64, ../sass/services.scss */
 .first video {
   min-width: 100%;
 }
-/* line 29, ../sass/services.scss */
+/* line 67, ../sass/services.scss */
 .first .content {
   background-color: rgba(58, 194, 185, 0.59);
   position: absolute;
@@ -43,22 +82,22 @@ div {
   width: 100%;
   padding: 23.5% 7%;
 }
-/* line 36, ../sass/services.scss */
+/* line 74, ../sass/services.scss */
 .first .content h1 {
   font-size: 46px;
   font-weight: 900;
 }
-/* line 39, ../sass/services.scss */
+/* line 77, ../sass/services.scss */
 .first .content h1 span {
   font-size: 50px;
   margin-bottom: 24px;
 }
 
-/* line 47, ../sass/services.scss */
+/* line 85, ../sass/services.scss */
 .second {
   padding: 6% 3%;
 }
-/* line 49, ../sass/services.scss */
+/* line 87, ../sass/services.scss */
 .second .col {
   float: left;
   width: 29%;
@@ -67,159 +106,159 @@ div {
   padding: 2%;
   margin: 0 2%;
 }
-/* line 56, ../sass/services.scss */
+/* line 94, ../sass/services.scss */
 .second .col .img {
   width: 25%;
   float: left;
 }
-/* line 59, ../sass/services.scss */
+/* line 97, ../sass/services.scss */
 .second .col .img img {
   width: 100%;
 }
-/* line 63, ../sass/services.scss */
+/* line 101, ../sass/services.scss */
 .second .col .info {
   float: left;
   width: 70%;
   padding-left: 8%;
 }
-/* line 68, ../sass/services.scss */
+/* line 106, ../sass/services.scss */
 .second .col a {
   float: right;
 }
-/* line 70, ../sass/services.scss */
+/* line 108, ../sass/services.scss */
 .second .col a img {
   width: 30px;
   margin-left: 10px;
 }
 
-/* line 79, ../sass/services.scss */
+/* line 117, ../sass/services.scss */
 .three .col {
   padding: 0;
   width: 33%;
   float: left;
 }
-/* line 83, ../sass/services.scss */
+/* line 121, ../sass/services.scss */
 .three .col .content {
   background-size: cover;
   text-align: center;
   padding: 20% 8%;
   color: #ffffff;
 }
-/* line 89, ../sass/services.scss */
+/* line 127, ../sass/services.scss */
 .three .col .content h2 {
   font-size: 3.1em;
   margin-bottom: .3em;
   font-weight: 900;
 }
-/* line 94, ../sass/services.scss */
+/* line 132, ../sass/services.scss */
 .three .col .content p {
   padding: 0;
   margin: 0 0 1.4em;
   font-size: 20px;
   font-weight: 600;
 }
-/* line 102, ../sass/services.scss */
+/* line 140, ../sass/services.scss */
 .three .one {
   background: url("../images/one.jpg");
   background-position: center;
   background-size: cover;
 }
-/* line 106, ../sass/services.scss */
+/* line 144, ../sass/services.scss */
 .three .one .content {
   background-color: rgba(121, 201, 186, 0.97);
 }
-/* line 108, ../sass/services.scss */
+/* line 146, ../sass/services.scss */
 .three .one .content:hover {
   opacity: 0.9;
 }
-/* line 113, ../sass/services.scss */
+/* line 151, ../sass/services.scss */
 .three .two {
   background: url("../images/two.jpg");
   background-position: center;
   background-size: cover;
 }
-/* line 117, ../sass/services.scss */
+/* line 155, ../sass/services.scss */
 .three .two .content {
   background-color: rgba(86, 161, 214, 0.94);
 }
-/* line 119, ../sass/services.scss */
+/* line 157, ../sass/services.scss */
 .three .two .content:hover {
   opacity: 0.8;
 }
-/* line 124, ../sass/services.scss */
+/* line 162, ../sass/services.scss */
 .three .third {
   background: url("../images/third.jpg");
   background-position: center;
   background-size: cover;
 }
-/* line 128, ../sass/services.scss */
+/* line 166, ../sass/services.scss */
 .three .third .content {
   background-color: rgba(82, 99, 128, 0.93);
 }
-/* line 130, ../sass/services.scss */
+/* line 168, ../sass/services.scss */
 .three .third .content:hover {
   opacity: 0.8;
 }
 
-/* line 137, ../sass/services.scss */
+/* line 175, ../sass/services.scss */
 .four {
   max-height: 383px;
 }
-/* line 139, ../sass/services.scss */
+/* line 177, ../sass/services.scss */
 .four .left, .four .right {
   float: left;
   width: 50%;
 }
-/* line 142, ../sass/services.scss */
+/* line 180, ../sass/services.scss */
 .four .left img, .four .right img {
   width: 100%;
   height: 100%;
 }
-/* line 147, ../sass/services.scss */
+/* line 185, ../sass/services.scss */
 .four .right {
   background-color: #ffd66b;
   text-align: center;
   padding: 9% 5%;
 }
-/* line 151, ../sass/services.scss */
+/* line 189, ../sass/services.scss */
 .four .right h2 {
   font-size: 1.16em;
   letter-spacing: .03em;
   font-weight: 800;
 }
-/* line 156, ../sass/services.scss */
+/* line 194, ../sass/services.scss */
 .four .right p {
   color: #666;
   font-size: 18px;
   line-height: 1.8;
 }
 
-/* line 164, ../sass/services.scss */
+/* line 202, ../sass/services.scss */
 .five {
   max-height: 383px;
   padding: 3% 6%;
 }
-/* line 167, ../sass/services.scss */
+/* line 205, ../sass/services.scss */
 .five .left, .five .right {
   float: left;
   width: 50%;
 }
-/* line 170, ../sass/services.scss */
+/* line 208, ../sass/services.scss */
 .five .left img, .five .right img {
   height: 100%;
 }
-/* line 174, ../sass/services.scss */
+/* line 212, ../sass/services.scss */
 .five .right {
   text-align: left;
 }
-/* line 176, ../sass/services.scss */
+/* line 214, ../sass/services.scss */
 .five .right h2 {
   font-size: 3.1em;
   font-weight: 900;
   margin-bottom: .3em;
   text-transform: capitalize;
 }
-/* line 182, ../sass/services.scss */
+/* line 220, ../sass/services.scss */
 .five .right p {
   color: #666;
   font-size: 18px;
@@ -227,14 +266,14 @@ div {
   padding: 0;
   margin: 0 0 1.4em;
 }
-/* line 189, ../sass/services.scss */
+/* line 227, ../sass/services.scss */
 .five .right a .click-btn {
   color: #bc6e00;
   border: 1px solid #bc6e00;
   background: 0;
   padding: 15px 30px;
 }
-/* line 194, ../sass/services.scss */
+/* line 232, ../sass/services.scss */
 .five .right a .click-btn:hover {
   background-color: #bc6e00;
   color: #ffffff;
@@ -242,50 +281,50 @@ div {
   transition: all .3s ease-in-out;
 }
 
-/* line 204, ../sass/services.scss */
+/* line 242, ../sass/services.scss */
 .six {
   max-height: 362px;
 }
-/* line 206, ../sass/services.scss */
+/* line 244, ../sass/services.scss */
 .six .col {
   float: left;
   width: 25%;
   padding: 0;
 }
-/* line 210, ../sass/services.scss */
+/* line 248, ../sass/services.scss */
 .six .col img {
   width: 100%;
   height: 100%;
 }
-/* line 214, ../sass/services.scss */
+/* line 252, ../sass/services.scss */
 .six .col .content {
   text-align: center;
   padding: 34% 6%;
 }
-/* line 217, ../sass/services.scss */
+/* line 255, ../sass/services.scss */
 .six .col .content h3 {
   font-size: 1.16em;
   letter-spacing: .03em;
   font-weight: 800;
 }
-/* line 222, ../sass/services.scss */
+/* line 260, ../sass/services.scss */
 .six .col .content p {
   padding: 0;
   margin: 0 0 1.6em;
   font-size: 17px;
   line-height: 1.5;
 }
-/* line 230, ../sass/services.scss */
+/* line 268, ../sass/services.scss */
 .six .text {
   background-color: #5ecce5;
 }
-/* line 233, ../sass/services.scss */
+/* line 271, ../sass/services.scss */
 .six .t-one {
   background-color: #e67e22;
   color: #fff;
 }
 
-/* line 239, ../sass/services.scss */
+/* line 277, ../sass/services.scss */
 .contact {
   background: url("../images/tower.jpg");
   background-repeat: no-repeat;
@@ -294,14 +333,14 @@ div {
   background-attachment: fixed;
   padding: 10% 7%;
 }
-/* line 246, ../sass/services.scss */
+/* line 284, ../sass/services.scss */
 .contact .content {
   background-color: rgba(255, 157, 0, 0.61);
   padding: 7% 5%;
   color: #fff;
   text-align: center;
 }
-/* line 251, ../sass/services.scss */
+/* line 289, ../sass/services.scss */
 .contact .content h2 {
   font-size: 1.16em;
   letter-spacing: .03em;
@@ -309,13 +348,13 @@ div {
   line-height: 1.6em;
   font-weight: 900;
 }
-/* line 258, ../sass/services.scss */
+/* line 296, ../sass/services.scss */
 .contact .content p {
   padding: 0;
   margin: 0 0 1.4em;
   font-size: 18px;
 }
-/* line 263, ../sass/services.scss */
+/* line 301, ../sass/services.scss */
 .contact .content a .click-btn {
   color: #fff;
   border: 1px solid #fff;
@@ -323,7 +362,7 @@ div {
   padding: 15px 30px;
   font-weight: 900;
 }
-/* line 269, ../sass/services.scss */
+/* line 307, ../sass/services.scss */
 .contact .content a .click-btn:hover {
   background-color: #fff;
   color: #000;
@@ -331,14 +370,14 @@ div {
   transition: all .3s ease-in-out;
 }
 
-/* line 279, ../sass/services.scss */
+/* line 317, ../sass/services.scss */
 .footer {
   background-color: #d9d9d9;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 54px 0 2em;
 }
-/* line 284, ../sass/services.scss */
+/* line 322, ../sass/services.scss */
 .footer a {
   text-decoration: none;
   display: inline-block;
@@ -348,11 +387,11 @@ div {
   line-height: 1;
   z-index: 10;
   color: inherit;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .100s;
+  -moz-transition: all .100s;
+  transition: all .100s;
 }
-/* line 297, ../sass/services.scss */
+/* line 335, ../sass/services.scss */
 .footer a:before {
   font-size: 3rem;
   content: "\005E";

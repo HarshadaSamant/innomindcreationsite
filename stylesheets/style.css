@@ -19,18 +19,19 @@ html, body {
   position: relative;
   overflow-x: hidden;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
-/* line 17, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 html li, html a, body li, body a {
   text-decoration: none !important;
 }
 
-/* line 22, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 div {
   margin: 0%;
 }
 
-/* line 25, ../sass/style.scss */
+/* line 26, ../sass/style.scss */
 header {
   text-align: inherit;
   padding: .15em 28px;
@@ -39,7 +40,7 @@ header {
   min-height: 55px;
   z-index: 999;
 }
-/* line 33, ../sass/style.scss */
+/* line 34, ../sass/style.scss */
 header .navbar .navbar-brand {
   font-weight: bold;
   letter-spacing: 1px;
@@ -48,59 +49,59 @@ header .navbar .navbar-brand {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 41, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 header .navbar .collapse form {
   position: absolute;
   right: 0;
 }
-/* line 46, ../sass/style.scss */
+/* line 47, ../sass/style.scss */
 header .navbar .collapse form .navbar-nav li a {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
 }
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 header .navbar .collapse form .navbar-nav li.active a {
   color: #e4c272;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 62, ../sass/style.scss */
 .first {
   background-color: #c3c0c0;
   width: 100%;
   max-height: 70vh;
 }
-/* line 65, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .first .content {
   margin: 0 7%;
 }
-/* line 67, ../sass/style.scss */
+/* line 68, ../sass/style.scss */
 .first .content .left {
   padding-right: 50px;
   width: 65%;
   float: left;
 }
-/* line 71, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 .first .content .left img {
   width: 100%;
   height: 100%;
 }
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .first .content .right {
   width: 35%;
   float: left;
 }
-/* line 79, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .first .content .right img {
   width: 100%;
   height: 100%;
 }
 
-/* line 88, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .second {
   text-align: center;
 }
-/* line 90, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
 .second .heading {
   background-image: linear-gradient(180deg, black 0%, rgba(163, 163, 163, 0.99) 0%, white 100%);
   background-repeat: repeat;
@@ -110,22 +111,22 @@ header .navbar .collapse form .navbar-nav li.active a {
   line-height: 40px;
   color: #242847;
 }
-/* line 98, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .second .heading h2 {
   font-size: 60px;
   font-weight: 900;
   margin: 0;
 }
-/* line 103, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .second .heading .sub {
   margin: 0 auto;
 }
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .second .heading .sub h3 {
   font-size: 25px;
   font-weight: 500;
 }
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 .second .heading .sub:before {
   content: "";
   border-top: 3px solid;
@@ -133,53 +134,53 @@ header .navbar .collapse form .navbar-nav li.active a {
   display: block;
   margin: 0 auto;
 }
-/* line 118, ../sass/style.scss */
+/* line 119, ../sass/style.scss */
 .second .content {
   padding: 0 7%;
   background-image: linear-gradient(180deg, black 0%, rgba(163, 163, 163, 0.99) 0%, white 100%);
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .second .content .row1 .col {
   padding: 0 20px;
   width: 33%;
   float: left;
 }
-/* line 128, ../sass/style.scss */
+/* line 129, ../sass/style.scss */
 .second .content .row1 .col .carousel .carousel-inner .carousel-item {
   max-height: 440;
 }
-/* line 130, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
 .second .content .row1 .col .carousel .carousel-inner .carousel-item img {
   height: 100%;
 }
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 .second .content .row2 {
   padding: 24px 0;
 }
-/* line 141, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .second .content .row2 .col1 {
   padding: 0 20px;
   float: left;
   width: 66%;
 }
-/* line 145, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .second .content .row2 .col1 img {
   width: 100%;
   height: 100%;
 }
-/* line 150, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 .second .content .row2 .col2 {
   padding: 0 20px;
   float: left;
   width: 33%;
 }
-/* line 154, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .second .content .row2 .col2 img {
   width: 100%;
   height: 100%;
 }
 
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .three .heading {
   background-image: linear-gradient(180deg, black 0%, rgba(163, 163, 163, 0.99) 0%, white 100%);
   background-repeat: repeat;
@@ -190,53 +191,53 @@ header .navbar .collapse form .navbar-nav li.active a {
   color: #242847;
   text-align: center;
 }
-/* line 173, ../sass/style.scss */
+/* line 174, ../sass/style.scss */
 .three .heading h2 {
   font-size: 50px;
   font-weight: 900;
   margin: 0;
 }
-/* line 179, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .three .content {
   padding: 0 7%;
 }
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 .three .content .row1 {
   padding-top: 24px;
   max-height: 566px;
 }
-/* line 184, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .three .content .row1 .col1 {
   padding: 0 20px;
   float: left;
   width: 66%;
 }
-/* line 188, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .three .content .row1 .col1 img {
   width: 100%;
   height: 100%;
 }
-/* line 193, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .three .content .row1 .col2 {
   padding: 0 20px;
   float: left;
   width: 33%;
 }
-/* line 197, ../sass/style.scss */
+/* line 198, ../sass/style.scss */
 .three .content .row1 .col2 img {
   width: 100%;
   height: 100%;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .four {
   padding-top: 50px;
 }
-/* line 208, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .four .content {
   margin: 0 7%;
 }
-/* line 210, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .four .content .col {
   float: left;
   margin: 0 23px;
@@ -247,7 +248,7 @@ header .navbar .collapse form .navbar-nav li.active a {
   padding: 10% 0;
   text-align: center;
 }
-/* line 219, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .four .content .col h2 {
   color: #7d7d7d;
   font-size: 1.5em;
@@ -256,20 +257,20 @@ header .navbar .collapse form .navbar-nav li.active a {
   letter-spacing: .03em;
   font-weight: bold;
 }
-/* line 227, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .four .content .col p {
   font-size: 25px;
   color: #7d7d7d;
 }
 
-/* line 235, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .footer {
   background-color: #d9d9d9;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 54px 0 2em;
 }
-/* line 240, ../sass/style.scss */
+/* line 241, ../sass/style.scss */
 .footer a {
   text-decoration: none;
   display: inline-block;
@@ -283,7 +284,7 @@ header .navbar .collapse form .navbar-nav li.active a {
   -moz-transition: all .5s;
   transition: all .5s;
 }
-/* line 253, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 .footer a:before {
   font-size: 3rem;
   content: "\005E";

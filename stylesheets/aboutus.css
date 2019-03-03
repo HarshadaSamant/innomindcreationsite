@@ -22,21 +22,56 @@ html, body {
   position: relative;
   overflow-x: hidden;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 /* line 17, ../sass/style.scss */
-/* line 24, ../sass/aboutus.scss */
+/* line 25, ../sass/aboutus.scss */
 html li, html a, body li, body a {
   text-decoration: none !important;
 }
 
 /* line 22, ../sass/style.scss */
-/* line 29, ../sass/aboutus.scss */
+/* line 30, ../sass/aboutus.scss */
 div {
   margin: 0%;
 }
 
-/* line 33, ../sass/aboutus.scss */
+/* line 34, ../sass/aboutus.scss */
+header {
+  text-align: inherit;
+  padding: .15em 28px;
+  background-color: #d9d9d9;
+  width: 100%;
+  min-height: 55px;
+  z-index: 999;
+}
+/* line 42, ../sass/aboutus.scss */
+header .navbar .navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 36px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* line 50, ../sass/aboutus.scss */
+header .navbar .collapse form {
+  position: absolute;
+  right: 0;
+}
+/* line 55, ../sass/aboutus.scss */
+header .navbar .collapse form .navbar-nav li a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* line 61, ../sass/aboutus.scss */
+header .navbar .collapse form .navbar-nav li.active a {
+  color: #e4c272;
+}
+
+/* line 70, ../sass/aboutus.scss */
 .first {
   background: url("../images/aboutusfirst.jpg");
   height: 430px;
@@ -44,7 +79,7 @@ div {
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 39, ../sass/aboutus.scss */
+/* line 76, ../sass/aboutus.scss */
 .first h2 {
   background-color: rgba(1, 47, 90, 0.5);
   text-align: center;
@@ -55,27 +90,27 @@ div {
   font-weight: 900;
 }
 
-/* line 50, ../sass/aboutus.scss */
+/* line 87, ../sass/aboutus.scss */
 .second {
   background-color: #d9d9d9;
   padding: 5% 7%;
 }
-/* line 53, ../sass/aboutus.scss */
+/* line 90, ../sass/aboutus.scss */
 .second .images {
   width: 55%;
   float: left;
 }
-/* line 56, ../sass/aboutus.scss */
+/* line 93, ../sass/aboutus.scss */
 .second .images img {
   width: 100%;
 }
-/* line 60, ../sass/aboutus.scss */
+/* line 97, ../sass/aboutus.scss */
 .second .history {
   padding: 5% 0 0 40px;
   float: left;
   width: 45%;
 }
-/* line 64, ../sass/aboutus.scss */
+/* line 101, ../sass/aboutus.scss */
 .second .history h3 {
   font-size: 58px;
   line-height: 65px;
@@ -83,35 +118,35 @@ div {
   font-weight: 900;
   margin-bottom: 17px;
 }
-/* line 71, ../sass/aboutus.scss */
+/* line 108, ../sass/aboutus.scss */
 .second .history p {
   color: #666;
   font-size: 18px;
   line-height: 1.7;
 }
 
-/* line 79, ../sass/aboutus.scss */
+/* line 116, ../sass/aboutus.scss */
 .founder {
   background-color: #f2efef;
   padding: 5% 7%;
 }
-/* line 82, ../sass/aboutus.scss */
+/* line 119, ../sass/aboutus.scss */
 .founder .img {
   padding-top: 5%;
   width: 45%;
   float: right;
 }
-/* line 86, ../sass/aboutus.scss */
+/* line 123, ../sass/aboutus.scss */
 .founder .img img {
   width: 100%;
 }
-/* line 90, ../sass/aboutus.scss */
+/* line 127, ../sass/aboutus.scss */
 .founder .info {
   padding: 0 40px 0 0;
   float: right;
   width: 50%;
 }
-/* line 94, ../sass/aboutus.scss */
+/* line 131, ../sass/aboutus.scss */
 .founder .info h3 {
   font-size: 58px;
   line-height: 65px;
@@ -119,19 +154,19 @@ div {
   font-weight: 900;
   margin-bottom: 17px;
 }
-/* line 101, ../sass/aboutus.scss */
+/* line 138, ../sass/aboutus.scss */
 .founder .info p {
   color: #666;
   font-size: 18px;
   line-height: 1.7;
 }
 
-/* line 109, ../sass/aboutus.scss */
+/* line 146, ../sass/aboutus.scss */
 .team {
   padding: 5% 7%;
   text-align: center;
 }
-/* line 112, ../sass/aboutus.scss */
+/* line 149, ../sass/aboutus.scss */
 .team h3 {
   font-size: 58px;
   line-height: 65px;
@@ -139,19 +174,19 @@ div {
   font-weight: 900;
   margin-bottom: 17px;
 }
-/* line 119, ../sass/aboutus.scss */
+/* line 156, ../sass/aboutus.scss */
 .team .col {
   float: left;
   width: 33%;
 }
 
-/* line 125, ../sass/aboutus.scss */
+/* line 162, ../sass/aboutus.scss */
 .career {
   padding: 5% 0;
   background-color: #f2efef;
   text-align: center;
 }
-/* line 129, ../sass/aboutus.scss */
+/* line 166, ../sass/aboutus.scss */
 .career h3 {
   font-size: 58px;
   line-height: 65px;
@@ -159,7 +194,7 @@ div {
   font-weight: 900;
   margin-bottom: 27px;
 }
-/* line 136, ../sass/aboutus.scss */
+/* line 173, ../sass/aboutus.scss */
 .career .card {
   margin: 30px;
   padding: 40px;
@@ -168,36 +203,36 @@ div {
   transition: 0.3s;
   width: 20%;
 }
-/* line 143, ../sass/aboutus.scss */
+/* line 180, ../sass/aboutus.scss */
 .career .card img {
   width: 100%;
   margin-bottom: 20px;
 }
-/* line 147, ../sass/aboutus.scss */
+/* line 184, ../sass/aboutus.scss */
 .career .card.last {
   padding-bottom: 15px;
 }
-/* line 152, ../sass/aboutus.scss */
+/* line 189, ../sass/aboutus.scss */
 .career .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 156, ../sass/aboutus.scss */
+/* line 193, ../sass/aboutus.scss */
 .career .container {
   padding: 2px 0;
 }
-/* line 158, ../sass/aboutus.scss */
+/* line 195, ../sass/aboutus.scss */
 .career .container h4 {
   font-size: 20px;
 }
 
-/* line 164, ../sass/aboutus.scss */
+/* line 201, ../sass/aboutus.scss */
 .footer {
   background-color: #d9d9d9;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 54px 0 2em;
 }
-/* line 169, ../sass/aboutus.scss */
+/* line 206, ../sass/aboutus.scss */
 .footer a {
   text-decoration: none;
   display: inline-block;
@@ -211,7 +246,7 @@ div {
   -moz-transition: all .5s;
   transition: all .5s;
 }
-/* line 182, ../sass/aboutus.scss */
+/* line 219, ../sass/aboutus.scss */
 .footer a:before {
   font-size: 3rem;
   content: "\005E";
