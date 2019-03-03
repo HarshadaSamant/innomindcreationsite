@@ -127,6 +127,9 @@ header {
         .carousel-inner {
           .carousel-item {
             max-height: 440;
+            img {
+              height: 100%;
+            }
           }
         }
       }
