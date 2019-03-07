@@ -198,6 +198,46 @@ header {
   }
 }
 
+.distributer {
+  background: url('../images/tower.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  padding: 10% 7%;
+  .content {
+    background-color: rgba(255,157,0, 0.61);
+    padding: 7% 5%;
+    color: #fff;
+    text-align: center;
+    h2 {
+      font-size: 1.16em;
+      letter-spacing: .03em;
+      margin: 0 0 .5em;
+      line-height: 1.6em;
+      font-weight: 900;
+    }
+    p {
+      padding: 0;
+      margin: 0 0 1.4em;
+      font-size: 18px;
+    }
+    a .click-btn {
+      color: #fff;
+      border: 1px solid #fff;
+      background: 0;
+      padding: 15px 30px;
+      font-weight: 900;
+      &:hover {
+        background-color: #fff;
+        color: #000;
+        -moz-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+}
+
 .footer {
   background-color: #d9d9d9;
   border-top: 1px solid rgba(0,0,0,.1);

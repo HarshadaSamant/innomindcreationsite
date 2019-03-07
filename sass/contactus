@@ -1,0 +1,26 @@
+.default-container {
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+html, body {
+  margin: 0%;
+  padding: 0;
+  font-family: Lato;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #fff;
+   scroll-behavior: smooth;
+  li, a {
+    text-decoration: none !important;
+  }
+ }
+
+div {
+  margin: 0%; }
+
+  
